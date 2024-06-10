@@ -6,7 +6,7 @@ echo "y" | sudo apt install git
 git clone https://github.com/thejarlid/INFT225-Final
 
 #
-cd INFT225-Final
+cd INFT225-Final;
 
 #
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
@@ -28,4 +28,4 @@ npm install
 node server.js &
 
 #
-echo '"Hello World" - Jason.0.0.1' > index.html
+echo '"Hello World" - Jason.0.0.2' > index.html
