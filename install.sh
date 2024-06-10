@@ -26,3 +26,6 @@ node server.js &
 
 #
 echo '"Hello World" - Jason' > INFT225-Final/index.html
+
+#
+mv package-lock.json INFT225-Final
