@@ -1,12 +1,9 @@
 #!/bin/sh
-echo -e '\n\nsudo apt update\n';echo "y" | sudo apt update;echo -e '\nsudo apt full-upgrade\n';echo "y" | sudo apt full-upgrade;echo -e '\nsudo apt autoremove\n';echo "y" | sudo apt autoremove;echo -e '\nsudo apt-get clean\n';echo "y" | sudo apt-get clean;echo -e '\nsudo apt-get autoclean\n';echo "y" | sudo apt-get autoclean;
+echo "y" | sudo apt update;echo "y" | sudo apt full-upgrade;echo "y" | sudo apt autoremove;echo "y" | sudo apt-get clean;echo "y" | sudo apt-get autoclean;
 #
-echo "y" | sudo apt install git net-tools;sudo apt-get update;sudo apt-get install inetutils-traceroute
+echo "y" | sudo apt install git
 #
 git clone https://github.com/thejarlid/INFT225-Final
-
-#
-echo '"Hello World" - Jason' > INFT225-Final/index.html
 
 #
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
@@ -26,3 +23,6 @@ npm install
 
 #
 node server.js &
+
+#
+echo '"Hello World" - Jason' > INFT225-Final/index.html
