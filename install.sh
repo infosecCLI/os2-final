@@ -28,4 +28,4 @@ npm install
 node server.js &
 
 #
-echo '"Hello World" - Jason.0.0.2' > index.html
+echo '"Hello World" - Jason final' > index.html
