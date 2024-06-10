@@ -6,6 +6,9 @@ echo "y" | sudo apt install git
 git clone https://github.com/thejarlid/INFT225-Final
 
 #
+cd INFT225-Final
+
+#
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 
 # attempts to add the source lines from the snippet below to the correct profile file
@@ -25,7 +28,4 @@ npm install
 node server.js &
 
 #
-echo '"Hello World" - Jason' > INFT225-Final/index.html
-
-#
-mv package-lock.json INFT225-Final
+echo '"Hello World" - Jason' > index.html
